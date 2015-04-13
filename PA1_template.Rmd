@@ -108,7 +108,7 @@ data.tmp <- nafilled[, list(av= mean(steps)),by = list(interval,week)]
 ```
 Plot the average steps on the 5 minutes interval for the weekday and weekend.
 
-```{r}
+```{r, fig.height = 6}
 gg <- ggplot(data=data.tmp,aes( x = interval, y = av))
 gg <- gg+geom_line() + facet_grid(week~.)
 gg <- gg+theme_bw() + labs( x='5 minutes interval', y='Steps')
