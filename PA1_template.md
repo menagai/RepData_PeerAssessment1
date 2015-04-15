@@ -8,6 +8,8 @@ output:
 
 # "Reproducible Research: Peer Assessment 1"
 
+#### author: Micael Eiji Nagai
+
 ## Loading and preprocessing the data
 Loading/installing some packages and acquiring and processing the data:
 
